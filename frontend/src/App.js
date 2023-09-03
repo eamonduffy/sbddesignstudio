@@ -3,11 +3,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 // pages
 import Home from "./pages/Home";
-import ExampleAPIs from "./pages/ExampleAPIs";
 
 // components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 function App() {
     return (
@@ -16,8 +18,9 @@ function App() {
             <div className="content-container">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/home" element={<Home />} />
-                    <Route path="/example-apis" element={<ExampleAPIs />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
             <Footer />
