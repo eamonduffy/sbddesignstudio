@@ -71,7 +71,7 @@ const About = () => {
                         sx={{ mt: 3 }}
                     >
                         With over 30 years of experience in the industry,
-                        Stefanie Breitung Duffy holds a Masters of Architecture
+                        Stefanie Breitung Duffy holds a Master's of Architecture
                         from Syracuse University School of Architecture and a
                         major contractor license. Her extensive career spans
                         various architectural projects, including new

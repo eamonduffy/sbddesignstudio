@@ -16,6 +16,7 @@ import Img6 from "../static/portfolio/6.JPG";
 import Img7 from "../static/portfolio/7.JPG";
 import Img8 from "../static/portfolio/8.JPG";
 import Img9 from "../static/portfolio/9.JPG";
+import Img12 from "../static/portfolio/12.jpg";
 
 const imageCardData = [
     {
@@ -49,9 +50,9 @@ const imageCardData = [
         body: "Hamptons, NY",
     },
     {
-        image: Img7,
-        subtitle: "Airport Terminal Rendering",
-        body: "Not Applicable",
+        image: Img12,
+        subtitle: "Amphitheater Concept",
+        body: "Walden Pond, MA",
     },
     {
         image: Img8,

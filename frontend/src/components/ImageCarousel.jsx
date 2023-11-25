@@ -8,6 +8,9 @@ import img1 from "../static/portfolio/1.JPG";
 import img2 from "../static/portfolio/2.JPG";
 import img3 from "../static/portfolio/3.JPG";
 import img4 from "../static/portfolio/4.JPG";
+import img10 from "../static/portfolio/10.jpg";
+import img11 from "../static/portfolio/11.jpg";
+
 
 const ImageCarousel = () => {
     const settings = {
@@ -71,6 +74,12 @@ const ImageCarousel = () => {
                 </div>
                 <div>
                     <img src={img3} alt="3" style={imageStyles} />
+                </div>
+                <div>
+                    <img src={img10} alt="3"  style={imageStyles}/>
+                </div>
+                <div>
+                    <img src={img11} alt="3" style={imageStyles} />
                 </div>
             </Slider>
         </div>
